@@ -20,6 +20,7 @@ public class DemoController {
             httpServletResponse.getWriter().write(result);
         }catch (Exception e){
             e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
